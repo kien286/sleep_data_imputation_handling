@@ -18,9 +18,9 @@ The file provided should have following criteria:
 - Data are measured minute-wise/per minute
 
 System requirements:
-- numpy, pandas, torch, and surprise package for NMF <br />
-
-
+- numpy, pandas, torch, and surprise package for NMF
+<br />
+<br />
 #### 1. Individual_model
 We first propose the individual model, which can process the sleep diary singly without additional data. The file contains this algorithm is individual_model, with the function named individual_model_handle. 
 
