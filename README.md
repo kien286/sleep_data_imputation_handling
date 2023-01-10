@@ -18,7 +18,7 @@ The file provided should have following criteria:
 - Data are measured minute-wise/per minute
 
 System requirements:
-- numpy, pandas, torch, and surprise package for NMF
+- numpy, pandas, torch, and surprise package for NMF \\
 
 
 #### 1. Individual_model
