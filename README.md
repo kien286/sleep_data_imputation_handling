@@ -20,14 +20,14 @@ The file provided should have following criteria:
 System requirements:
 - numpy, pandas, torch, and surprise package for NMF
 
-##1. Individual_model
+# 1. Individual_model
 We first propose the individual model, which can process the sleep diary singly without additional data. The file contains this algorithm is individual_model, with the function named individual_model_handle. 
  How to use:
 - Put the file needed to handle into the directory data (same position as the synthetic_data.csv)
 - In a py/ipynb file, import the function: from individual_model import individual_model_handle
 - individual_model_handle requires 3 arguments: filename, which should be the name of the file needed for handling, the mode should be either handle or evaluate. Handle will simply output a file, with all the missing labels have been filled, thanks to the model trained on the nonmissing data. Evaluate will mask some data of the file into missing, which will be used to test for the algorithm. Finally, param_choice will decide the parameters of the gamma distributions, which will generate the maskings for the algorithm. 2 options are tune or default, with default uses our parameters learnt from our datasets, while tune will estimate the parameters from the input filename, based on methods of moments
 
-##2. global_model
+# 2. global_model
  How to use:
  - Put the file needed to handle into the directory data (same position as the synthetic_data.csv)
  - In a py/ipynb file, import the function: from global_model import global_model_handle
