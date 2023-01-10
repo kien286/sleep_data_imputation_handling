@@ -23,6 +23,7 @@ System requirements:
 
 #### 1. Individual_model
 We first propose the individual model, which can process the sleep diary singly without additional data. The file contains this algorithm is individual_model, with the function named individual_model_handle. 
+
  How to use:
 - Put the file needed to handle into the directory data (same position as the synthetic_data.csv)
 - In a py/ipynb file, import the function: from individual_model import individual_model_handle
