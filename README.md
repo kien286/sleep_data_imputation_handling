@@ -9,7 +9,7 @@ This is the algorithm package to handle missing data problems in sleep diary. Li
 There are 2 algorithms here, which are using individual data (individual_model) to train the model, or use a global model (global_model) trained from multiple patients to handle the missing data.
 
 Code:
-There are 2 main py files, individual_model_handle and global_modle_handle, which will contain the functions to handle the missing data
+There are 2 main py files, individual_model_handle and global_modle_handle, which will contain the functions to handle the missing data.<br />
 There are 2 folders, data, which to contain all the datasets, and necessary data functions handler. The folder models contain the NMF handlers, the model's structures, and training supporting functions.
 
 Data requirements:
