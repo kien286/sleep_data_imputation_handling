@@ -14,7 +14,7 @@ There are 2 folders, data, which to contain all the datasets, and necessary data
 
 Data requirements:
 The file provided should have following criteria:
-- Columns should contain SleepStatus, antigraphy columns (which can include missing data)
+- Columns should contain SleepStatus, actigraphy columns (which can include missing data)
 - Data are measured minute-wise/per minute
 
 System requirements:
