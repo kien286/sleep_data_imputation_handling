@@ -10,7 +10,7 @@ There are 2 algorithms here, which are using individual data (individual_model) 
 
 Code:
 There are 2 main py files, individual_model_handle and global_modle_handle, which will contain the functions to handle the missing data
-There are 2 folders, data, which to contain all the datasets, and necessary data functions handler. The folder models contain the NMF handlers, the model's structures, and training supporting functions
+There are 2 folders, data, which to contain all the datasets, and necessary data functions handler. The folder models contain the NMF handlers, the model's structures, and training supporting functions.
 
 Data requirements:
 The file provided should have following criteria:
@@ -22,6 +22,7 @@ System require:
 - numpy, pandas, torch, and surprise package for NMF
 1. Individual_model
  We first propose the individual model, which can process the sleep diary singly without additional data. The file contains this algorithm is individual_model, with the function named individual_model_handle. 
+ 
 How to use:
 - Put the file needed to handle into the directory data (same position as the synthetic_data.csv)
 - In a py/ipynb file, import the function: from individual_model import individual_model_handle
